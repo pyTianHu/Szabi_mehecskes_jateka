@@ -88,7 +88,7 @@ while True:
         else:
             score += 1
             
-        if randint(0,10) < 9:
+        if randint(0,10) < 4:
             is_bigflower = True
             big_flower_rect = big_flower_surface.get_rect(topleft = (randint(50,750), randint(50,450)))
             screen.blit(big_flower_surface,big_flower_rect)
